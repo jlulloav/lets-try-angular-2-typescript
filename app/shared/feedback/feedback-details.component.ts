@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Feedback } from './feedback.model';
-import { FeedbackServices } from './feedback.services'
+import { FeedbackServices } from './feedback.services';
 
 @Component({
     selector: 'fd-view',

@@ -50,7 +50,7 @@ We use Karma framework for run our test code in a real browser ( at the moment i
 
 The `htmlReporter` is also wired in. That produces a prettier output; look for it in `~_test-output/tests.html`; this file is excluded from source control.
 
-#### End-To-End (E2E)
+### End-To-End (E2E)
 BEFORE RUNNING THE FIRST TEST you must update the Selenium webdriver. Run `npm run webdriver:update` first time only.
 Thereafter, run them with `npm run e2e`.
 That command first compiles, then simultaneously starts the Http-Server at localhost:8080 and launches protractor.
